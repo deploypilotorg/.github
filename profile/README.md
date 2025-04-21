@@ -34,7 +34,7 @@ We’re a cross-functional team with different roles — but we all jumped in an
 - **Edouard** – Data Analyst  
 - **Jafar** – Data Analyst  
 - **Clara** – Data Analyst  
-- **Zaid** – MLP Engineer  
+- **Zaid** – ML and MLOPS Engineer  
 
 Despite our titles, we didn’t stick strictly to our roles — we all worked together, mixed responsibilities, and helped each other out throughout the project 💪.
 
