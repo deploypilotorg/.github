@@ -30,9 +30,9 @@ We’re a lean, cross-functional team committed to building a frictionless deplo
 - **Guy** – Data Engineer  
 - **Karl** – Product Manager  
 - **Zaid** – ML & MLOps Engineer  
-- **Edouard** – Software Engineer  
-- **Jafar** – Software Engineer  
-- **Clara** – Engineer & Developer Experience Lead  
+- **Edouard** – Data Analyst
+- **Jafar** – Data Analyst
+- **Clara** – Data Analyst & Developer Experience Lead  
 
 Our team works collaboratively across roles to ensure DeployPilot remains fast, flexible, and intuitive.
 
