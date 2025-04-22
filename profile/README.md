@@ -1,94 +1,90 @@
-# Welcome to DeployPilot 🚀
+# 🚀 Welcome to DeployPilot
 
-DeployPilot is dedicated to simplifying and automating deployment workflows for modern data and software engineering teams.  
-Our tools are designed to streamline multi-environment pipelines, enhance collaboration between data engineers and analysts, and ensure reliable, repeatable deployments.
-
----
-
-## 🔧 Active Projects
-
-These repositories are actively maintained and form the core of our deployment ecosystem:
-
-### 1. [deploypilot](https://github.com/deploypilotorg/deploypilot)
-The central CLI tool that manages deployments across various environments.  
-It integrates seamlessly with CI/CD pipelines and supports custom hooks for flexible workflows.
-
-### 2. [mcp-server](https://github.com/deploypilotorg/mcp-server)
-The backend service responsible for coordinating deployment tasks, managing state, and handling authentication.
-
-### 3. [mcp-client](https://github.com/deploypilotorg/mcp-client)
-A lightweight client library that interfaces with `mcp-server`, enabling programmatic deployment triggers and status checks.
-
-### 4. [data-analysts](https://github.com/deploypilotorg/data-analysts)
-A collection of tools and scripts tailored for data analysts, facilitating data validation, transformation, and reporting within the deployment pipeline.
+**DeployPilot** is a lightweight deployment management framework built for modern data and software teams. We focus on making environment-based deployments smooth, auditable, and repeatable for everyone—from engineers to product managers.
 
 ---
 
-## 👥 Meet the Team
+## 📦 Core Repositories
 
-We’re a cross-functional team with different roles — but we all jumped in and contributed wherever needed.
+Here are the main projects powering DeployPilot:
+
+### 🔧 [deploypilot](https://github.com/deploypilotorg/deploypilot)
+Our CLI tool, built with Flask, designed to manage deployment flows across multiple environments. Provides automation and developer-friendly UX for setting up and triggering deployments.
+
+### 🌐 [mcp-server](https://github.com/deploypilotorg/mcp-server)
+Handles the backend logic of deployment orchestration, environment state management, and secure execution of deployment jobs.
+
+### 🧩 [mcp-client](https://github.com/deploypilotorg/mcp-client)
+A Python client that integrates with `mcp-server`, allowing developers or systems to trigger and monitor deployments programmatically.
+
+### 💡 [example-repo](https://github.com/deploypilotorg/example-repo)
+A reference implementation that demonstrates how to structure projects using DeployPilot. Use this as your starter template!
+
+---
+
+## 🧑‍💻 Meet the Team
+
+We’re a lean, cross-functional team committed to building a frictionless deployment experience:
 
 - **Saleh** – Data Engineer  
 - **Guy** – Data Engineer  
 - **Karl** – Product Manager  
-- **Edouard** – Data Analyst  
-- **Jafar** – Data Analyst  
-- **Clara** – Data Analyst  
-- **Zaid** – ML and MLOPS Engineer  
+- **Zaid** – ML & MLOps Engineer  
+- **Edouard** – Software Engineer  
+- **Jafar** – Software Engineer  
+- **Clara** – Engineer & Developer Experience Lead  
 
-Despite our titles, we didn’t stick strictly to our roles — we all worked together, mixed responsibilities, and helped each other out throughout the project 💪.
-
----
-
-## 🗃️ Repositories to Review
-
-The following repositories appear to be inactive or redundant.  
-Consider archiving or deleting them to maintain a clean and efficient workspace:
-
-- [example-repo](https://github.com/deploypilotorg/example-repo): A sample repository, possibly used for initial testing or demonstrations.
-- [data-engineering](https://github.com/deploypilotorg/data-engineering): Archived; may contain outdated or superseded content.
-- [legacy_client_mcp_server](https://github.com/deploypilotorg/legacy_client_mcp_server): An older version of the MCP client-server setup; likely replaced by current implementations.
-- [.github](https://github.com/deploypilotorg/.github): Contains organization-wide GitHub configurations; ensure it's up-to-date and necessary.
+Our team works collaboratively across roles to ensure DeployPilot remains fast, flexible, and intuitive.
 
 ---
 
-## 🧭 Getting Started
+## 🚀 Getting Started with DeployPilot
 
-To begin using DeployPilot:
+Follow these steps to get started:
 
 1. **Install the CLI**  
-   Follow the instructions in the [deploypilot](https://github.com/deploypilotorg/deploypilot) repository to install the command-line tool.
+   → Head to the [`deploypilot`](https://github.com/deploypilotorg/deploypilot) repo and follow installation instructions.
 
-2. **Set Up the Server**  
-   Deploy the `mcp-server` to your preferred environment, ensuring it's accessible to clients.
+2. **Deploy `mcp-server`**  
+   → See [`mcp-server`](https://github.com/deploypilotorg/mcp-server) for environment variables and deployment config.
 
 3. **Integrate the Client**  
-   Use the `mcp-client` library in your applications or scripts to interact with the server.
+   → Use [`mcp-client`](https://github.com/deploypilotorg/mcp-client) to connect your apps to the backend.
 
-4. **Utilize Analyst Tools**  
-   Incorporate resources from the `data-analysts` repository to enhance your data workflows.
+4. **Reference the Example Project**  
+   → Start from [`example-repo`](https://github.com/deploypilotorg/example-repo) to build your first pipeline quickly.
 
-For detailed documentation and examples, check the individual repositories.
+---
+
+## 🧹 Housekeeping & Archived Repos
+
+The following repos have been archived but remain accessible for legacy reference:
+
+- `data-analysts` – deprecated
+- `data-engineering` – deprecated
+- `legacy_client_mcp_server` – superseded by newer versions
 
 ---
 
 ## 🤝 Contributing
 
-We’re always open to feedback and collaboration!
+We love collaborators. If you're interested:
 
-1. Fork a repo  
-2. Create your branch  
-3. Make your changes  
-4. Submit a pull request
+1. Fork a repo.
+2. Create a branch.
+3. Make your changes.
+4. Open a pull request.
 
-Make sure your code is clean, documented, and tested.
+Write clean, documented code, and test your changes!
 
 ---
 
 ## 📫 Contact
 
-For questions, suggestions, or support, feel free to open an issue in any repository or reach out to the team.
+Questions or suggestions?  
+→ Open an issue on any of our active repositories.  
+→ We welcome contributions, ideas, and feedback!
 
 ---
 
-Built with teamwork, caffeine, and a whole lot of late nights ☕✨
+Built with 💻 + ☕ by the DeployPilot Team
